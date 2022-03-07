@@ -1,0 +1,8 @@
+.root{
+    -fx-min-width: 1366;
+    -fx-min-height: 768;
+    -fx-pref-width: 1366;
+    -fx-pref-height: 768;
+    -fx-max-width: 1920;
+    -fx-max-height: 1080;
+}

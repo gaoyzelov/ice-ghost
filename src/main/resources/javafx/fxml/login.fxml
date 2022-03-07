@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.gy.ice.controller.LoginController">
+    <Text fx:id="welcome" text="Welcome" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"/>
+    <Label text="用户名:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <TextField fx:id="tfUsername" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Label text="密码:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <PasswordField fx:id="pfPassword" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <HBox spacing="10" alignment="BOTTOM_RIGHT" GridPane.columnIndex="1" GridPane.rowIndex="4">
+        <Button fx:id="btnReset" text="重置" onAction="#reset"/>
+        <Button fx:id="btnLogin" text="登录" onAction="#login"/>
+    </HBox>
+    <Text fx:id="tips" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="6"/>
+</GridPane>

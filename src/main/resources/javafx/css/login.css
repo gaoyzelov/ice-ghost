@@ -1,0 +1,60 @@
+.root{
+    -fx-background-image: url("/javafx/image/welcome.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-alignment: center_right;
+    -fx-min-width: 720;
+    -fx-min-height: 410;
+    -fx-pref-width: 720;
+    -fx-pref-height: 410;
+    -fx-max-width: 1920;
+    -fx-max-height: 1080;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 25 25 10 25;
+}
+
+#welcome {
+    -fx-font-size: 32px;
+    -fx-font-family: “Arial Black”;
+    -fx-fill: #818181;
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #303133;
+}
+
+#btnLogin {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: “Arial Narrow”;
+    -fx-font-weight: bold;
+    -fx-background-color: #409EFF;
+    -fx-border-color: #409EFF;
+    -fx-border-radius: 5px;
+}
+
+#btnLogin:hover {
+    -fx-text-fill: #409EFF;
+    -fx-background-color: #FFFFFF;
+}
+
+#btnReset{
+    -fx-text-fill: #606266;
+    -fx-font-family: “Arial Narrow”;
+    -fx-font-weight: bold;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #C0C4CC;
+    -fx-border-radius: 5px;
+}
+
+#btnReset:hover{
+    -fx-text-fill: #409EFF;
+    -fx-border-color: #409EFF;
+}
+
+#tips {
+    -fx-fill: #F56C6C;
+    -fx-font-weight: bold;
+}
